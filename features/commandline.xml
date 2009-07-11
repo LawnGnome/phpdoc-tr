@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 1.4 $ -->
-<!-- EN-Revision: 1.58 Maintainer: yasar  Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283795 Maintainer: yasar  Status: ready -->
 <chapter xml:id="features.commandline" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>PHP'nin komut satırından kullanımı</title>
  <para>
