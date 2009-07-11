@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 1.1 $ -->
-<!-- EN-Revision: 1.5 Maintainer: haluk Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283819 Maintainer: haluk Status: ready -->
 <refentry xml:id="function.intl-get-error-code">
  <refnamediv>
   <refname>intl_get_error_code</refname>
