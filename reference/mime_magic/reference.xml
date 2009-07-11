@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 1.1 $ -->
-<!-- EN-Revision: 1.12 Maintainer: nilgun Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 283823 Maintainer: nilgun Status: ready -->
 <reference xml:id="ref.mime-magic" xmlns="http://docbook.org/ns/docbook">
  <title>MIME türü &Functions;</title>
 
