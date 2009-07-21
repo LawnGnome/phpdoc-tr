@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283830 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 284405 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.preg-split" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>preg_split</refname>
@@ -46,8 +46,8 @@
      <listitem>
       <para>
        Belirtildiği takdirde sadece <parameter>sınır</parameter> sayıda alt
-       dizge döner. <parameter>sınır</parameter> olarak -1 belirtilmişse
-       herhangi bir sayı sınırlaması yok demektir ve genellikle
+       dizge döner. <parameter>sınır</parameter> olarak -1, 0 veya &null;
+       belirtilmişse herhangi bir sayı sınırlaması yok demektir ve genellikle
        <parameter>seçenekler</parameter> değiştirgesinin belirtilmesinin
        gerekli olduğu durumlarda kullanılır.
       </para>
