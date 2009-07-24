@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283810 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 284669 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.delete" role="noversion">
  <refnamediv>
   <refname>delete</refname>
@@ -30,8 +30,8 @@
  <refsect1 role="seealso">
   &reftitle.seealso;
    <simplelist>
-    <member>Dosyaları silmek için <function>unlink</function></member>
-    <member>Değişkenleri silmek için <function>unset</function></member>
+    <member><function>unlink</function></member>
+    <member><function>unset</function></member>
    </simplelist>
   <para/>
  </refsect1>

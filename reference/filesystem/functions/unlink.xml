@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283810 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 284668 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.unlink">
  <refnamediv>
   <refname>unlink</refname>
@@ -104,7 +104,7 @@ unlink('dnmdizini');
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member>Dizinleri silmek için <function>rmdir</function></member>
+    <member><function>rmdir</function></member>
    </simplelist>
   </para>
  </refsect1>
