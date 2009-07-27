@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283790 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286399 Maintainer: nilgun Status: ready -->
 <appendix xml:id="ini" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>&php.ini; yönergeleri</title>
 
@@ -5280,7 +5280,7 @@ include_path=".;c:\php\includes"
    </para>
   </section>
 
-  <section xml:id="ini.sql-general">
+  <section xml:id="ini.sect.sql-general">
    <title>Genel SQL</title>
    <para>
     <table>

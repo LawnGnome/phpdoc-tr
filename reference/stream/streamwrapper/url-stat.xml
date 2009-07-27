@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283839 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286382 Maintainer: nilgun Status: ready -->
 <refentry xml:id="streamwrapper.url-stat" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>streamWrapper::url_stat</refname>
@@ -66,7 +66,9 @@
      <term><parameter>dosya</parameter></term>
      <listitem>
       <para>
-       Hakkında bilgi döndürülecek dosyanın URL'si.
+       Hakkında bilgi döndürülecek dosyanın yolu veya URL'si. Bir URL
+       belirtilmesi durumunda URL ayracı olarak <code>://</code>
+       kullanılmalıdır. Diğer URL biçimleri desteklenmemektedir.
       </para>
      </listitem>
     </varlistentry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283809 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286383 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.finfo-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>finfo_open</refname>
@@ -111,7 +111,7 @@ finfo_close($finfo);
   &example.outputs;
   <screen>
 <![CDATA[
-text/plain
+text/plain; charset=us-ascii
 ]]>
   </screen>
  </refsect1>
