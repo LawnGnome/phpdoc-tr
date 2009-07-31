@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283820 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286584 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.libxml-get-errors" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>libxml_get_errors</refname>
@@ -97,10 +97,10 @@ function display_xml_error($error, $xml)
     <screen>
 <![CDATA[
   <titles>PHP: Behind the Parser</title>
-^
+----------------------------------------------^
 Ölümcül hata 76: Opening and ending tag mismatch: titles line 4 and title
   Satır: 4
-  Sütun: 0
+  Sütun: 46
 
 --------------------------------------------
 ]]>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283826 Maintainer: mustafa Status: ready -->
+<!-- EN-Revision: 286556 Maintainer: mustafa Status: ready -->
 <refentry xml:id="function.mysql-db-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_db_query</refname>
@@ -38,6 +38,11 @@
      <listitem>
       <para>
        MySQL sorgusu.
+      </para>
+      <para>
+       Sorgunun içindeki verinin <link
+       linkend="function.mysql-real-escape-string" >gerektiği gibi öncelenmesi
+       gerekir</link>.
       </para>
      </listitem>
     </varlistentry>
