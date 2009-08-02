@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283810 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286621 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fopen">
  <refnamediv>
   <refname>fopen</refname>
@@ -259,9 +259,9 @@ $dt = fopen("c:\\veri\\bilgi.txt", "r");
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Dosya başarıyla açılamazsa işlev <constant>E_WARNING</constant> seviyesinde
-   bir hata üretir. Bu uyarının çıktılanmaması için işlev isminin başına <link
-   linkend="language.operators.errorcontrol">@</link> karakterini
+   Dosya başarıyla açılamazsa <constant>E_WARNING</constant> seviyesinde
+   bir hata üretilir. Bu uyarının çıktılanmaması için işlev isminin başına
+   <link linkend="language.operators.errorcontrol">@</link> karakterini
    ekleyebilirsiniz.
   </para>
  </refsect1>
