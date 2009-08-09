@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283843 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 286905 Maintainer: nilgun Status: ready -->
 <section xml:id="zlib.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -91,7 +91,9 @@
    <listitem>
     <para>
      Çıktının şeffaf olarak sıkıştırılması için kullanılacak sıkıştırma
-     seviyesi.
+     seviyesi. 0 (sıkıştırma yok) ile 9 (en fazla sıkıştırma) arasında bir
+     değer olarak belirtilir. Öntanımlı değer -1 olup, kullanılacak sıkıştırma
+     seviyesine sunucu karar verir.
     </para>
    </listitem>
   </varlistentry>
