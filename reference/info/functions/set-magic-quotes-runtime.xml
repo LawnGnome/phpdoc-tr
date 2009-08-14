@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287192 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.set-magic-quotes-runtime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>set_magic_quotes_runtime</refname>
@@ -18,6 +18,7 @@
    <link linkend="ini.magic-quotes-runtime">magic_quotes_runtime</link>
    yönergesinin çalışma anı değerini belirler.
   </para>
+  &warn.deprecated.function-5-3-0.removed-6-0-0;
  </refsect1>
 
  <refsect1 role="parameters">

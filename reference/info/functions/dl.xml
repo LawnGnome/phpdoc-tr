@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287181 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.dl" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>dl</refname>
@@ -23,6 +23,7 @@
    ile) yüklenen eklentileri bulan <function>extension_loaded</function>
    işlevini kullanın.
   </para>
+  &warn.deprecated.function-5-3-0.removed-6-0-0;
  </refsect1>
 
  <refsect1 role="parameters">
