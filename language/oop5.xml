@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283798 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: tpug, sezer -->
  <chapter xml:id="language.oop5" xmlns="http://docbook.org/ns/docbook">
   <title>Sınıflar ve Nesneler (PHP 5)</title>
@@ -30,7 +30,6 @@
   &language.oop5.final;
   &language.oop5.cloning;
   &language.oop5.object-comparison;
-  &language.oop5.reflection;
   &language.oop5.typehinting;
   &language.oop5.late-static-bindings;
   &language.oop5.references;
