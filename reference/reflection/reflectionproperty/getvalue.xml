@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
-<refentry xml:id="reflector.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="reflectionproperty.getvalue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Reflector::export</refname>
-  <refpurpose>Sınıfı ihraç eder</refpurpose>
+  <refname>ReflectionProperty::getValue</refname>
+  <refpurpose>Özelliğin değerini döndürür</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
-   <void />
+   <modifier>public</modifier> <type>mixed</type><methodname>ReflectionProperty::getValue</methodname>
+   <methodparam choice="opt"><type>string</type><parameter>özellik</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Sınıfı ihraç eder.
+   Özelliğin değerini döndürür.
   </para>
 
   &warn.undocumented.func;
@@ -23,13 +23,24 @@
 
  <refsect1 role="parameters">
   &reftitle.parameters;
-  &no.function.parameters;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term><parameter>özellik</parameter></term>
+     <listitem>
+      <para>
+       Yansıtılan nesne.
+      </para>
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
  </refsect1>
 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-
+   Özelliğin değeri.
   </para>
  </refsect1>
 
@@ -37,7 +48,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>Reflector::__toString</methodname></member>
+    <member><methodname>ReflectionProperty::getName</methodname></member>
+    <member><methodname>ReflectionProperty::setValue</methodname></member>
    </simplelist>
   </para>
  </refsect1>

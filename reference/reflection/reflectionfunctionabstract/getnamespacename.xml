@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
-<refentry xml:id="reflector.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="reflectionfunctionabstract.getnamespacename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Reflector::export</refname>
-  <refpurpose>Sınıfı ihraç eder</refpurpose>
+  <refname>ReflectionFunctionAbstract::getNamespaceName</refname>
+  <refpurpose>İsim alanı adını döndürür</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>ReflectionFunctionAbstract::getNamespaceName</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Sınıfı ihraç eder.
+   Sınıfın tanımlandığı isim alanının adını döndürür.
   </para>
 
   &warn.undocumented.func;
@@ -29,7 +29,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-
+   İsim alanı adı.
   </para>
  </refsect1>
 
@@ -37,7 +37,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>Reflector::__toString</methodname></member>
+    <member><methodname>ReflectionFunctionAbstract::getFileName</methodname></member>
+    <member><xref linkend="language.namespaces" /></member>
    </simplelist>
   </para>
  </refsect1>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
-<refentry xml:id="reflector.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xml:id="reflectionparameter.clone" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Reflector::export</refname>
-  <refpurpose>Sınıfı ihraç eder</refpurpose>
+  <refname>ReflectionParameter::__clone</refname>
+  <refpurpose>Nesneyi kopyalar</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
+   <modifier>final</modifier> <modifier>private</modifier> <type>void</type><methodname>ReflectionParameter::__clone</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Sınıfı ihraç eder.
+   Nesneyi kopyalar.
   </para>
 
   &warn.undocumented.func;
@@ -37,7 +37,8 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>Reflector::__toString</methodname></member>
+    <member><methodname>ReflectionParameter::__toString</methodname></member>
+    <member><xref linkend="language.oop5.cloning" /></member>
    </simplelist>
   </para>
  </refsect1>

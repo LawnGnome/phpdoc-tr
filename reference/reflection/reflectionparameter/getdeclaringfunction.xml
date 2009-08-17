@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
-<refentry xml:id="reflector.export" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<refentry xml:id="reflectionparameter.getdeclaringfunction" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
-  <refname>Reflector::export</refname>
-  <refpurpose>Sınıfı ihraç eder</refpurpose>
+  <refname>ReflectionParameter::getDeclaringFunction</refname>
+  <refpurpose>Bildiren işlevi döndürür</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>abstract</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>string</type><methodname>Reflector::export</methodname>
+   <modifier>public</modifier> <type>ReflectionFunction</type><methodname>ReflectionParameter::getDeclaringFunction</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Sınıfı ihraç eder.
+   Bildiren işlevi döndürür.
   </para>
 
   &warn.undocumented.func;
@@ -29,7 +30,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-
+   Bir <classname>ReflectionFunction</classname> nesnesi.
   </para>
  </refsect1>
 
@@ -37,7 +38,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><methodname>Reflector::__toString</methodname></member>
+    <member><methodname>ReflectionParameter::getDeclaringClass</methodname></member>
    </simplelist>
   </para>
  </refsect1>
