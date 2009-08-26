@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: nilgun Status: ready -->
-<refentry xml:id='function.simplexml-element-children' xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 287736 Maintainer: nilgun Status: ready -->
+<refentry xml:id='simplexmlelement.children' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::children</refname>
   <refpurpose>Belirtilen düğümün çocuklarını bulur</refpurpose>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283798 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287729 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="language.types.array">
  <title><code>array</code></title>
 
@@ -71,7 +71,16 @@ echo $dizi[12];    // 1
     değer olabilir.
    </para>
 
-   <informalexample>
+   <note>
+    <para>
+      Tanımlanmamış bir dizi anahtarına erişmeye çalışmakla tanımsız bir
+      değişkene erişmeye çalışmak arasında fark yoktur:
+      <constant>E_NOTICE</constant> seviyesinde bir hata iletisi çıktılanır ve
+      sonuç &null; olur
+    </para>
+   </note>
+
+<informalexample>
     <programlisting role="php">
 <![CDATA[
 <?php

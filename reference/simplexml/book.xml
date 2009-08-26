@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283836 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287736 Maintainer: nilgun Status: ready -->
 <!-- Purpose: xml -->
 <!-- Membership: bundled, external -->
 <book xml:id="book.simplexml" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,6 +20,7 @@
  &reference.simplexml.setup;
  &reference.simplexml.constants;
  &reference.simplexml.examples;
+ &reference.simplexml.simplexmlelement;
  &reference.simplexml.reference;
 
 </book>
