@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283800 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287789 Maintainer: nilgun Status: ready -->
 <!-- splitted from ./en/functions/array.xml, last change in rev 1.2 -->
 <refentry xml:id="function.key" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -36,7 +36,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Anahtarı döndürür.
+   Dahili göstericinin üzerinde bulunduğu elemanın anahtarını döndürür. Eğer
+   gösterici son elemandan sonrasını gösteriyorsa &null; döner.
   </para>
  </refsect1>
  <refsect1 role="examples">
