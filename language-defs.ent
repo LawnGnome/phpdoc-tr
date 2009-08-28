@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 279251 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 287860 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: cumhuronat, tpug, antimon, flarecaster -->
 
 <!-- Part titles used mostly in manual.xml itself -->
@@ -33,7 +33,7 @@
 <!ENTITY AuthenticationServices                   "Kimlik Doğrulama Hizmetleri">
 <!ENTITY OtherServices                            "Diğer Hizmetler">
 <!ENTITY CompressionExtensions                    "Sıkıştırma ve Arşivleme Eklentileri">
-<!ENTITY CalendarandEventRelatedExtensions        "Takvim ve Olaylarla İlgili Eklentiler">
+<!ENTITY CalendarandEventRelatedExtensions        "Tarih ve Saat ile İlgili Eklentiler">
 <!ENTITY NonTextMIMEOutput                        "Salt Metin Olmayan MIME Çıktılama">
 <!ENTITY ImageProcessingandGeneration             "Resim İşleme ve Resim Üretimi">
 <!ENTITY AudioFormatsManipulation                 "Ses Biçemleme İşlemleri">
