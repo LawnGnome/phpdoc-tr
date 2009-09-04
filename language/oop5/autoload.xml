@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283798 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288025 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: tpug, sezer -->
  <sect1 xml:id="language.oop5.autoload" xmlns="http://docbook.org/ns/docbook">
-  <title>Özdevinimli Nesne Yükleme</title>
+  <title>Özdevinimli Sınıf Yükleme</title>
   <para>
     Nesne-yönelimli uygulama yazan birçok geliştirici, her bir sınıf tanımı
     için ayrı bir PHP kaynak dosyası oluşturmaktadır. Bu kullanımın en can
