@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283810 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288029 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fseek">
  <refnamediv>
   <refname>fseek</refname>
@@ -41,7 +41,9 @@
        Yeni konum.
       </para>
       <para>
-       Konumu dosya sonunun öncesine taşımak için negatif bir değer aktarın.
+       Konumu dosya sonunun öncesine taşımak için bu değiştirgeyle negatif bir
+       değer, <parameter>nereye</parameter> değiştirgesiyle de
+       <constant>SEEK_END</constant> aktarın.
       </para>
      </listitem>
     </varlistentry>
