@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 287332 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288460 Maintainer: nilgun Status: ready -->
 <chapter xml:id="reflection.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <para>
@@ -12,8 +12,8 @@
   <programlisting role="shell">
 <![CDATA[
 $ php --rf strlen
-$ php --rc dir
-$ php --re scream
++$ php --rc finfo
++$ php --re json
 $ php --ri dom
 ]]>
   </programlisting>
