@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283841 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288607 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>unserialize</refname>
@@ -89,7 +89,7 @@
        <entry>4.0.0</entry>
        <entry>
         Bir nesne dizgeleştirilirken artık yöntemler kaybolmuyor. Daha
-        ayrıntılı bilgi için  <link linkend="language.oop.serialization">
+        ayrıntılı bilgi için  <link linkend="oop4.serialization">
         Nesneleri Dizgeleştirme</link> bölümüne bakınız.
        </entry>
       </row>
