@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283819 Maintainer: haluk Status: ready -->
+<!-- EN-Revision: 288721 Maintainer: haluk Status: ready -->
 <refentry xml:id="function.intl-get-error-code">
  <refnamediv>
   <refname>intl_get_error_code</refname>
@@ -71,7 +71,7 @@ if( !$coll ) {
  sgml-indent-data:t
  indent-tabs-mode:nil
  sgml-parent-document:nil
- sgml-default-dtd-file:"../../../../manual.ced"
+ sgml-default-dtd-file:"../~/.phpdoc/manual.ced"
  sgml-exposed-tags:nil
  sgml-local-catalogs:nil
  sgml-local-ecat-files:nil

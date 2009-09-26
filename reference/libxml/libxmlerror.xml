@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 283820 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
 <phpdoc:classref
  xmlns:phpdoc="http://php.net/ns/phpdoc"
  xml:id="class.libxmlerror"
