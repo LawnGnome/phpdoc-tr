@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288997 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.popen">
  <refnamediv>
   <refname>popen</refname>
@@ -84,7 +84,7 @@ $handle = popen("/bin/ls", "r");
 error_reporting(E_ALL);
 
 /* Komutu std. hataya yönlendirelim. */
-$bt = popen('/bir/yıl/spooge 2>&1', 'r');
+$bt = popen('/bir/yol/calistirilabilirdosya 2>&1', 'r');
 echo "'$tanıtıcı'; " . gettype($bt) . "\n";
 $okunan = fread($bt, 2096);
 echo $okunan;

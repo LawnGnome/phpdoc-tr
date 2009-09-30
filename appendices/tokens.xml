@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288955 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 288977 Maintainer: nilgun Status: ready -->
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
  <title>Çözümleyici Dizgeciklerinin Listesi</title>
  <para>
@@ -123,7 +123,7 @@
     </row>
     <row>
      <entry><constant>T_CLOSE_TAG</constant></entry>
-     <entry>?> veya %></entry>
+     <entry>?&gt; veya %&gt;</entry>
      <entry><xref linkend="language.basic-syntax.phpmode" /></entry>
     </row>
     <row>
@@ -563,7 +563,7 @@
     </row>
     <row>
      <entry><constant>T_OBJECT_OPERATOR</constant></entry>
-     <entry>-></entry>
+     <entry>-&gt;</entry>
      <entry><link linkend="language.oop5">sınıflar ve nesneler</link></entry>
     </row>
     <row>

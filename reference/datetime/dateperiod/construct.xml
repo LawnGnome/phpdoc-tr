@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: behzat Status: ready -->
+<!-- EN-Revision: 289003 Maintainer: behzat Status: ready -->
 <refentry xml:id="dateperiod.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DatePeriod::__construct</refname>
@@ -82,7 +82,7 @@
      <term><parameter>seçenekler</parameter></term>
      <listitem>
       <para>
-       <constant>DateTime::EXCLUDE_START_DATE</constant> sabiti olabilir.
+       <constant>DatePeriod::EXCLUDE_START_DATE</constant> sabiti olabilir.
       </para>
      </listitem>
     </varlistentry>
