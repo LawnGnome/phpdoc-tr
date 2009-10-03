@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289094 Maintainer: nilgun Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.ssh2-connect">
  <refnamediv>
   <refname>ssh2_connect</refname>
@@ -89,7 +89,7 @@
           <row>
            <entry>client_to_server</entry>
            <entry>
-            Sunucudan istemciye gönderilen iletiler için şifreleme, sıkıştırma
+            İstemciden sunucuya gönderilen iletiler için şifreleme, sıkıştırma
             ve ileti kimlik doğrulaması kodu (MAC) ile igili yöntem
             tercihlerini içeren bir ilişkisel dizi.
            </entry>
@@ -98,7 +98,7 @@
           <row>
            <entry>server_to_client</entry>
            <entry>
-            İstemciden sunucuya gönderilen iletiler için şifreleme, sıkıştırma
+            Sunucudan istemciye gönderilen iletiler için şifreleme, sıkıştırma
             ve ileti kimlik doğrulaması kodu (MAC) ile igili yöntem
             tercihlerini içeren bir ilişkisel dizi.
            </entry>
