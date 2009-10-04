@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289130 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-appendimages">
  <refnamediv>
   <refname>Imagick::appendImages</refname>
@@ -14,7 +14,7 @@
    <methodparam><type>bool</type><parameter>yığıt</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Yığıta bir resim kümesi ekler.
+   Daha büyük bir resmin içine bir resim kümesi ekler.
   </para>
  </refsect1>
 
@@ -41,6 +41,44 @@
    &imagick.imagickexception.throw;
   </para>
  </refsect1>
+
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
+   <example>
+    <title>- <methodname>Imagick::appendImages</methodname> örneği</title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+
+/* Yeni bir imagick nesnesi oluşturalım */
+$im = new Imagick();
+
+/* kırmızı, yeşil ve mavi tuvaller oluşturalım */
+$im->newImage(100, 50, "red");
+$im->newImage(100, 50, "green");
+$im->newImage(100, 50, "blue");
+
+/* Bunları birbirlerine ekleyelim */
+$im->resetIterator();
+$combined = $im->appendImages(true);
+
+/* Elde edilen resmi çıktılayalım */
+$combined->setImageFormat("png");
+header("Content-Type: image/png");
+echo $combined;
+?>
+]]>
+    </programlisting>
+    &example.outputs.similar;
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="en/reference/imagick/figures/floodfillpaint_intermediate.png"/>
+     </imageobject>
+    </mediaobject>
+   </example>
+   </para>
+  </refsect1>
 
 </refentry>
 

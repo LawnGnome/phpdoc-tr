@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289135 Maintainer: nilgun Status: ready -->
 <chapter xml:id="ssh2.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
 
  <!-- {{{ Requirements -->
  <section xml:id="ssh2.requirements">
   &reftitle.required;
-  &no.requirement;
+  <para>
+   <link xlink:href="&url.openssl;">OpenSSL</link> ve
+   <link xlink:href="&url.libssh2;">libssh2</link> kütüphanelerinin ve özellikle
+   de geliştirme paketlerinin (<literal>openssl-dev</literal> gibi) kurulu
+   olması gerekir.
+  </para>
+  <note>
+   <simpara>
+    Libssh2 kütüphanesinin 0.4 ve daha yeni sürümleri gerekli olup pecl/ssh2
+    eklentisinin yeni çıkacak sürümleri daha yenilerini gerektirebilir (dağıtım
+    bilgilerine bakınız).
+   </simpara>
+  </note>
  </section>
  <!-- }}} -->
 
