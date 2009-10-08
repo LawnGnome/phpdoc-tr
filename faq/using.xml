@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289138 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289301 Maintainer: nilgun Status: ready -->
 <chapter xml:id="faq.using" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>PHP Kullanımı</title>
   <titleabbrev>PHP Kullanımı</titleabbrev>
@@ -14,6 +14,7 @@
    <qandaentry xml:id="faq.using.parameterorder">
     <question>
      <para>
+      PHP'deki değiştirgelerin sırasını hatırlayamadıh, rasgele midir?
      </para>
     </question>
     <answer>

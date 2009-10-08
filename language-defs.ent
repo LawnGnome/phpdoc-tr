@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 287860 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289245 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: cumhuronat, tpug, antimon, flarecaster -->
 
 <!-- Part titles used mostly in manual.xml itself -->
@@ -84,6 +84,7 @@ supplemental files to mark section titles -->
 <!ENTITY reftitle.indices      '<title>İndisler</title>'>
 <!ENTITY reftitle.interfacesynopsis '<title>Arayüz Sözdizimi</title>'>
 <!ENTITY reftitle.methods      '<title>Yöntemler</title>'>
+<!ENTITY reftitle.mysqlnd      '<title>Sadece MySQL Doğal Sürücüsü</title>'>
 <!ENTITY reftitle.notes        '<title>Notlar</title>'>
 <!ENTITY reftitle.parameters   '<title>Değiştirgeler</title>'>
 <!ENTITY reftitle.options      '<title>Seçenekler</title>'>
