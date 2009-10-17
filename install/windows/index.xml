@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289705 Maintainer: nilgun Status: ready -->
   <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
    <title>Windows Sistemlerine Kurulum</title>
    <para>
@@ -50,6 +50,8 @@
    &install.windows.manual;
    &install.windows.activescript;
    &install.windows.iis;
+   &install.windows.iis6;
+   &install.windows.iis7;
    &install.windows.apache1;
    &install.windows.apache2;
    &install.windows.sun;
