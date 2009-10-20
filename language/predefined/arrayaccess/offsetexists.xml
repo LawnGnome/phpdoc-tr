@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haluk Status: ready -->
+<!-- EN-Revision: 289713 Maintainer: haluk Status: ready -->
 <refentry xml:id="arrayaccess.offsetexists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ArrayAccess::offsetExists</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>abstract</modifier> <modifier>public</modifier> <type>boolean</type><methodname>ArrayAccess::offsetExists</methodname>
-   <methodparam><type>string</type><parameter>konum</parameter></methodparam>
+   <methodparam><type>mixed</type><parameter>konum</parameter></methodparam>
   </methodsynopsis>
   <para>
    Bir konumun mevcut olup olmadığına bakar.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289616 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
  <refnamediv>
   <refname>clearstatcache</refname>
@@ -144,7 +144,7 @@ $format = "UID @ %s: %s\n";
 
 printf($format, date('r'), get_owner($file));
 
-chown($path, 'ross');
+chown($file, 'ross');
 printf($format, date('r'), get_owner($file));
 
 clearstatcache();

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289694 Maintainer: nilgun Status: ready -->
 <refentry xml:id="domdocument.loadhtmlfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::loadHTMLFile</refname>
@@ -54,8 +54,9 @@
   &reftitle.errors;
   <para>
    <parameter>dosya</parameter> olarak boş bir dizge veya boş bir dosya
-   aktarılırsa bir uyarı üretilir. Bu uyarıyı libxml üretmez ve libxml'in hata
-   işlevleri ile elde edilemez.
+   aktarılırsa bir uyarı üretilir. Bu uyarıyı libxml üretmez ve <link
+   linkend="function.libxml-use-internal-errors">libxml'in hata
+   işlevleri</link> ile elde edilemez.
   </para>
  </refsect1>
  <refsect1 role="examples">
