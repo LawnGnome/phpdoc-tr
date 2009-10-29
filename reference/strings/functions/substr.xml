@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: bvicil Status: ready -->
+<!-- EN-Revision: 289854 Maintainer: bvicil Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr">
  <refnamediv>
   <refname>substr</refname>
@@ -87,6 +87,10 @@ $rest = substr("abcdef", -3, 1); // "d" döndürür
        başlagıç konumu hesaplanır). Eğer <parameter>başlangıç</parameter>
        değiştirgesi negatif uzunlukla çıkarılan parçanın içindeki bir yeri
        işaret ediyorsa boş dizge döner.
+      </para>
+      <para>
+       <parameter>uzunluk</parameter> verilmiş ve <literal>0</literal> ise
+       &false;,  &null; ise boş bir dizge döner.
       </para>
       <example>
        <title>- Negatif <parameter>uzunluk</parameter> kullanımı</title>

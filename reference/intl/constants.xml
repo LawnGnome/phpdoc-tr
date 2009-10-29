@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haluk Status: ready -->
+<!-- EN-Revision: 289958 Maintainer: haluk Status: ready -->
 <appendix xml:id="intl.constants" xmlns="http://docbook.org/ns/docbook"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -13,7 +13,7 @@
     </term>
     <listitem>
      <simpara>
-      PHP kodunda yerel uzunluğunu 64 olarak sınırlar. Bundan daha uzun yerel
+      PHP kodunda yerel uzunluğunu 80 olarak sınırlar. Bundan daha uzun yerel
       isimleri kabul edilmez.
      </simpara>
     </listitem>

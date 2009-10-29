@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289884 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.imagecolorat" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecolorat</refname>
@@ -91,19 +91,25 @@ int(180)
 $im = imagecreatefrompng("php.png");
 $rgb = imagecolorat($im, 10, 15);
 
-list($r, $g, $b, $alpha) = imagecolorsforindex($rgb);
+$colors = imagecolorsforindex($im, $rgb);
 
-var_dump($r, $g, $b, $alpha);
+var_dump($colors);
 ?>
 ]]>
     </programlisting>
     &example.outputs.similar;
     <screen>
 <![CDATA[
-int(119)
-int(123)
-int(180)
-int(127)
+array(4) {
+  ["red"]=>
+  int(119)
+  ["green"]=>
+  int(123)
+  ["blue"]=>
+  int(180)
+  ["alpha"]=>
+  int(127)
+}
 ]]>
     </screen>
    </example>

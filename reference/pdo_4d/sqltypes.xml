@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289954 Maintainer: nilgun Status: ready -->
 <refentry xml:id="pdo-4d.sqltypes">
  <refnamediv>
   <refname>PDO_4D ve PHP ile SQL türleri</refname>
@@ -98,12 +98,12 @@
        <row>
         <entry>REAL</entry>
         <entry>REAL</entry>
-        <entry></entry>
+        <entry>Desteklenmiyor (VARCHAR kullanın).</entry>
        </row>
        <row>
         <entry>FLOAT</entry>
         <entry>FLOAT</entry>
-        <entry>Desteklenmiyor.</entry>
+        <entry>Desteklenmiyor (VARCHAR kullanın).</entry>
        </row>
        <row>
         <entry>DOUBLE PRECISION</entry>

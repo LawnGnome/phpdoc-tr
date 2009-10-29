@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290028 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-distortimage">
  <refnamediv>
   <refname>Imagick::distortImage</refname>
@@ -125,6 +125,12 @@ echo $im;
 ?>
 ]]>
     </programlisting>
+    &example.outputs.similar;
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="en/reference/imagick/figures/distortImage.png"/>
+     </imageobject>
+    </mediaobject>
    </example>
   </para>
  </refsect1>

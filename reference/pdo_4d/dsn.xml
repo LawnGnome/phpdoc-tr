@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 289953 Maintainer: nilgun Status: ready -->
   <refentry xml:id="ref.pdo-4d.connection">
    <refnamediv>
     <refname>PDO_4D DSN</refname>
@@ -36,6 +36,22 @@
         </para>
        </listitem>
       </varlistentry>
+       <varlistentry>
+       <term><constant>user</constant></term>
+       <listitem>
+        <para>
+         Veritabanına bağlanırken kullanılan kullanıcı ismi.
+        </para>
+       </listitem>
+      </varlistentry>
+      <varlistentry>
+       <term><constant>password</constant></term>
+       <listitem>
+        <para>
+         Veritabanına bağlanırken kullanılan kullanıcı parolası.
+        </para>
+       </listitem>
+      </varlistentry>
       <varlistentry>
        <term><constant>dbname</constant></term>
        <listitem>
@@ -46,7 +62,7 @@
        </listitem>
       </varlistentry>
       <varlistentry>
-       <term><constant>chars_set</constant></term>
+       <term><constant>charsset</constant></term>
        <listitem>
         <para>
          4D karakter kümesi.
