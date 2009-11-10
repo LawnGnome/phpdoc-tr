@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290078 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.is-readable">
  <refnamediv>
   <refname>is_readable</refname>
-  <refpurpose>Bir dosyanın okunabilir olup olmadığını söyler</refpurpose>
+  <refpurpose>Bir dosyanın mevcut ve okunabilir olup olmadığını söyler
+  </refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -14,7 +15,7 @@
    <methodparam><type>string</type><parameter>dosyaismi</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Bir dosyanın okunabilir olup olmadığını söyler.
+   Bir dosyanın mevcut ve okunabilir olup olmadığını söyler.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: onurozgurozkan Status: ready -->
+<!-- EN-Revision: 290205 Maintainer: onurozgurozkan Status: ready -->
 <!-- splitted from ./en/functions/array.xml, last change in rev 1.14 -->
 <refentry xml:id="function.func-get-args" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -125,7 +125,7 @@ function foo() {
 foo('First arg', 'Second arg');
 ?>
 
-fga.php
+fga.inc
 <?php
 
 $arg = func_get_arg1(1);

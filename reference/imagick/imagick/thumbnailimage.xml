@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290102 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-thumbnailimage">
  <refnamediv>
   <refname>Imagick::thumbnailImage</refname>
@@ -21,6 +21,7 @@
    profilleri siler. Yöntemin amacı, bir HTML sayfada gösterilmek üzere
    resmin küçük bir örneğini oluşturmaktır.
   </para>
+  &imagick.bestfit.note;
  </refsect1>
 
  <refsect1 role="parameters">

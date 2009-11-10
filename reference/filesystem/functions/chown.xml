@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290412 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.chown">
  <refnamediv>
   <refname>chown</refname>
@@ -63,7 +63,7 @@
 
 // Kullanılacak dosya ve kullanıcı ismi
 $dosya_ismi= "foo.php";
-$yol = "/home/sites/php.net/public_html/sandbox" . $dosya_ismi ;
+$yol = "/home/sites/php.net/public_html/sandbox/" . $dosya_ismi ;
 $kull_ismi = "root";
 
 // Kullanıcıyı değiştirelim

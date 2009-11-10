@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290102 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-cropthumbnailimage">
  <refnamediv>
   <refname>Imagick::cropThumbnailImage</refname>
@@ -16,8 +16,8 @@
   </methodsynopsis>
   &warn.undocumented.func;
   <para>
-   Resmi enboy oranının koruyarak küçülttükten sonra merkezi bölgenin çevresini
-   kırparak istenen boyuta getirir.
+   Resmi enboy oranının koruyarak küçülttükten/büyüttükten sonra merkezi
+   bölgenin çevresini kırparak istenen boyuta getirir.
   </para>
  </refsect1>
 
