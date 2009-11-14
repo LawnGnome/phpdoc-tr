@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290704 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.disk-total-space">
  <refnamediv>
   <refname>disk_total_space</refname>
@@ -38,7 +38,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Toplam bayt sayısını bir gerçek sayı olarak döndürür.
+   Hata durumunda &false; yoksa toplam bayt sayısını bir gerçek sayı olarak
+   döndürür.
   </para>
  </refsect1>
 
