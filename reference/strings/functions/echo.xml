@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290877 Maintainer: nilgun Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.echo">
  <refnamediv>
   <refname>echo</refname>
@@ -136,11 +136,6 @@ echo $some_var ? 'true': 'false'; // echo kendi içeriğini yorumlayabilir
 
  <refsect1 role="notes">
   &reftitle.notes;
-  <simpara>
-   <function>print</function> ve <function>echo</function>arasındaki farklar
-   hakkında bilgi edinmek için  <link xlink:href="&url.echo-print;">
-   &url.echo-print;</link> adresine bakınız.
-  </simpara>
   &note.language-construct;
  </refsect1>
 

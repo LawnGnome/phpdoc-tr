@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290877 Maintainer: nilgun Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.print">
  <refnamediv>
   <refname>print</refname>
@@ -19,11 +19,6 @@
   <para>
    <function>print</function> aslında bir işlev değildir (bir dil oluşumudur),
    dolayısıyla değiştirgesini belirtirken yaylı ayraçları kullanmanız gerekmez.
-  </para>
-  <para>
-   <function>print</function> ve <function>echo</function> arasındaki farklar
-   hakkında bilgi edinmek için <link xlink:href="&url.echo-print;">
-   &url.echo-print;</link> adresine bakınız.
   </para>
  </refsect1>
 
