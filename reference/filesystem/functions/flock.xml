@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290977 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.flock">
  <refnamediv>
   <refname>flock</refname>
@@ -69,14 +69,12 @@
           <constant>LOCK_UN</constant>.
          </simpara>
         </listitem>
-        <listitem>
-         <simpara>
-          <function>flock</function> işlevinin kilitleme sırasında
-          engellememesini istiyorsanız <constant>LOCK_NB</constant> (Windows
-          üzerinde desteklenmez).
-         </simpara>
-        </listitem>
        </itemizedlist>
+      </para>
+      <para>
+       Kilitleme sırasında  işlevinin engelleme yapmasını istemiyorsanız
+       <constant>LOCK_NB</constant> eklemek de mümkündür (Windows'ta
+       desteklenmez).
       </para>
      </listitem>
     </varlistentry>
@@ -171,6 +169,12 @@ fclose($dt);
     kullanmanız gerekir.
    </para>
   </note>
+  <warning>
+   <para>
+    Ardıl kodda <parameter>dt</parameter> değiştirgesine başka bir değer
+    atanması kilidin serbest kalmasına sebep olur.
+   </para>
+  </warning>
   <warning>
    <para>
     <function>flock</function> işlevi NFS ve diğer bir çok ağ dosya sistemi

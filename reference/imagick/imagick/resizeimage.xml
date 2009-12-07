@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290102 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-resizeimage">
  <refnamediv>
   <refname>Imagick::resizeImage</refname>
@@ -65,7 +65,7 @@
      <term><parameter>fit</parameter></term>
      <listitem>
       <para>
-       Boyutlara sığdırmayı zorlayan seçimlik değiştirge. &false; öntanımlıdır.
+       Boyutlara sığdırmayı zorlayan seçimlik değiştirge.
       </para>
      </listitem>
     </varlistentry>

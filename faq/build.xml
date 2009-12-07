@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290829 Maintainer: nilgun Status: ready -->
 <chapter xml:id="faq.build" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Derleme Sorunları</title>
   <titleabbrev>Derleme Sorunları</titleabbrev>
 
-   <para>
-    Bu bölüm, derleme sırasında oluşan hatalardan sık rastlananlarla ilgili
-    sorular ve çözümlerden derlenmiştir.
-   </para>
+  <para>
+   Bu bölüm, derleme sırasında oluşan hatalardan sık rastlananlarla ilgili
+   sorular ve çözümlerden derlenmiştir.
+  </para>
 
   <qandaset>
    <qandaentry xml:id="faq.build.configure">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 291316 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.count" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>count</refname>
@@ -49,9 +49,9 @@
        İsteğe bağlı <parameter>kip</parameter> değiştirgesine
        <constant>COUNT_RECURSIVE</constant> (veya 1) atanırsa,
        <function>count</function> işlevi diziyi ardışık olarak sayar. Böylece
-       çok boyutlu bir dizinin bütün elemanları sayılabilir. Değiştirgenin
-       öntanımlı değeri <literal>0</literal>'dır. <function>count</function>
-       sonsuz iç içeliği algılayacak yetenekte değildir.
+       çok boyutlu bir dizinin bütün elemanları sayılabilir.
+       <function>count</function> sonsuz iç içeliği algılayacak yetenekte
+       değildir.
       </para>
      </listitem>
     </varlistentry>

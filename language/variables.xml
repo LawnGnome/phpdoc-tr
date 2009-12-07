@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yasar Status: ready -->
+<!-- EN-Revision: 291201 Maintainer: yasar Status: ready -->
  <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Değişkenler</title>
 
@@ -541,6 +541,11 @@ function foo(){
      </example>
     </para>
    </note>
+   <note>
+    <para>
+     Duruk bildirimler derleme sırasında çözümlenir.
+    </para>
+   </note>
   </sect2>
 
   <sect2 xml:id="language.variables.scope.references">
@@ -856,6 +861,13 @@ Buna zam derler.
       diziler</link> PHP 4.1.0'dan itibaren vardır.
      </para>
     </note>
+    <note>
+     <para>
+      Değişken isimlerindeki noktalar ve boşluklar altçizgi karakterine
+      dönüştürülür. Örneğin, <literal>&lt;input name="a.b" /&gt;</literal>
+      ifadesi <literal>$_REQUEST["a_b"]</literal> haline gelir.
+      </para>
+     </note>
 
     <para>
       Bahsedildiği gibi, PHP 4.2.0'dan önce  <link

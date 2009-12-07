@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290973 Maintainer: nilgun Status: ready -->
 <section xml:id="errorfunc.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -188,7 +188,8 @@
        (<constant>E_ALL</constant> değeri) değişecektir. Bu bakımdan
        <constant>E_ALL</constant> yerine şimdiki ve gelecekteki tüm bit
        alanlarını kapsamak üzere <literal>2147483647</literal> gibi büyük bir
-       değer kullanabilirsiniz.
+       değer kullanabilirsiniz (<constant>E_ALL</constant>'dan başka tüm
+       hataları da içerir).
       </para>
      </note>
     </listitem>

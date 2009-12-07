@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: behzat Status: ready -->
+<!-- EN-Revision: 291247 Maintainer: behzat Status: ready -->
 <refentry xml:id="datetimezone.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateTimeZone::__construct</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <methodname>DateTimeZone::__construct</methodname>
+   <modifier>public</modifier> <methodname>DateTimeZone::__construct</methodname>
    <methodparam><type>string</type><parameter>zamandilimi</parameter></methodparam>
   </methodsynopsis>
   <para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290969 Maintainer: nilgun Status: ready -->
 <!-- Purpose: fileprocess.process -->
 <!-- Membership: core -->
 
@@ -15,6 +15,15 @@
    Bu bölümdeki işlevler, komutları sistemin kendisinde çalıştırmak ve güvenli
    kılmak için tasarlanmıştır.
   </para>
+  <note>
+   <para>
+    Windows altında, tüm çalıştırma işlevleri <literal>cmd.exe</literal>
+    üzerinden çağrılır. Bu bakımdan bu işlevleri çağıran kullanıcının komutu
+    çalıştıracak yetkilerle donatılmış olması gerekir. Bunun tek istisnası,
+    <literal>bypass_shell</literal> seçeneği ile <function>proc_open</function>
+    işlevidir.
+   </para>
+  </note>
  </preface>
  <!-- }}} -->
 

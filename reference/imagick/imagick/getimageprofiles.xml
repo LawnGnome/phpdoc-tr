@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimageprofiles">
  <refnamediv>
   <refname>Imagick::getImageProfiles</refname>
@@ -30,7 +30,7 @@
      <term><parameter>şablon</parameter></term>
      <listitem>
       <para>
-       Özellik isimleri için şablon. "*" öntanımlıdır.
+       Özellik isimleri için şablon.
       </para>
      </listitem>
     </varlistentry>

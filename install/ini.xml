@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 290814 Maintainer: nilgun Status: ready -->
  <chapter xml:id="configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Çalışma Anı Yapılandırması</title>
 
@@ -66,7 +66,8 @@
       <para>
        Windows dizini (<filename class="directory">C:\windows</filename>
        veya <filename class="directory">C:\winnt</filename>) (Windows için)
-       veya <literal>--with-config-file-path</literal> derleme seçeneği ile belirtilen dizin.
+       veya <literal>--with-config-file-path</literal> derleme seçeneği ile
+       belirtilen dizin.
       </para>
      </listitem>
     </itemizedlist>
@@ -188,28 +189,35 @@ include_path = ".;c:\php\lib"
 
     <table>
       <title>PHP_INI_* kiplerinin tanımları</title>
-      <tgroup cols="2">
+      <tgroup cols="3">
       <thead>
         <row>
         <entry>Kip</entry>
+        <entry>Değeri</entry>
         <entry>Anlamı</entry>
         </row>
       </thead>
       <tbody>
         <row>
         <entry>PHP_INI_USER</entry>
-        <entry>Girdi <link linkend="configuration.changes.windows">Windows registry</link> veya kullanıcı betiklerinde atanabilir.</entry>
+        <entry>1</entry>
+        <entry>Girdi <link linkend="configuration.changes.windows">Windows
+        registry</link> veya kullanıcı betiklerinde atanabilir.</entry>
         </row>
         <row>
         <entry>PHP_INI_PERDIR</entry>
-        <entry>Girdi &php.ini;, &htaccess; veya &httpd.conf; dosyasında atanabilir.</entry>
+        <entry>6</entry>
+        <entry>Girdi &php.ini;, &htaccess; veya &httpd.conf; dosyasında
+        atanabilir.</entry>
         </row>
         <row>
         <entry>PHP_INI_SYSTEM</entry>
+        <entry>4</entry>
         <entry>Girdi &php.ini; veya &httpd.conf; dosyasında atanabilir.</entry>
         </row>
         <row>
         <entry>PHP_INI_ALL</entry>
+        <entry>7</entry>
         <entry>Girdi herhangi bir yerde atanabilir.</entry>
         </row>
       </tbody>

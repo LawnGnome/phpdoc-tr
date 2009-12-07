@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 291249 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: tpug, sezer -->
  <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
   <title>İşlevler</title>
@@ -398,6 +398,11 @@ Bir kase az çilekli yoğurt yap.
     aktarılır. Daha ayrıntılı bilgi için <function>return</function> bölümüne
     bakınız.
    </para>
+   <note>
+    <para>
+     <function>return</function> belirtilmezse &null; değeri döner.
+    </para>
+   </note>
    <para>
     <example>
      <title>- <code>return</code> kullanımı</title>

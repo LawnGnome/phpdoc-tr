@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289616 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 291313 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.clearstatcache">
  <refnamediv>
   <refname>clearstatcache</refname>
@@ -73,7 +73,7 @@
      <term><parameter>gerçek_yol_belleğini_temizle</parameter></term>
      <listitem>
       <para>
-       Öntanımlı değeri &false;'tır.
+       Öntanımlı olarak gerçek yol belleği temizlenmez.
       </para>
      </listitem>
     </varlistentry>
