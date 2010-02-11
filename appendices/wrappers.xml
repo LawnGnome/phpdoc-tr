@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290707 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 293482 Maintainer: nilgun Status: ready -->
 <appendix xml:id="wrappers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Desteklenen Protokollerin ve Sarmalayıcıların Listesi</title>
  <para>
@@ -661,6 +661,13 @@ echo stream_get_contents($fp);
       <row>
        <entry><function>rmdir</function> desteği</entry>
        <entry>Yok</entry>
+      </row>
+      <row>
+       <entry><function>stream_select</function> desteği</entry>
+       <entry>
+        <literal>php://stdin</literal>, <literal>php://stdout</literal>, 
+        <literal>php://stderr</literal> ve <literal>php://temp</literal>.
+       </entry>
       </row>
      </tbody>
     </tgroup>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293573 Maintainer: nilgun Status: wip -->
+<!-- EN-Revision: 293769 Maintainer: nilgun Status: wip -->
 <!-- CREDITS: cumhuronat, tpug, antimon, flarecaster -->
 <!-- Keep 'em sorted -->
 
@@ -42,11 +42,10 @@ uygulama sonlanana kadar PHP askıda kalacaktır.</para></note>'>
 içeren bir dizi de kullanılabilir.</simpara></note>'>
 
 <!ENTITY note.func-callback-exceptions '<note
-xmlns="http://docbook.org/ns/docbook"><para>Note callbacks registered
-with functions such as <function>call_user_func</function> and
-<function>call_user_func_array</function> will not be
-called if theres is an uncaught exception thrown in a previous
-callback.</para></note>'>
+xmlns="http://docbook.org/ns/docbook"><para><function>call_user_func</function>
+ve <function>call_user_func_array</function> gibi işlevlerle kayıt altına
+alınmış geriçağırım işlevleri, bir önceki geriçağırım işlevinde oluşmuş
+ve yakalanmamış bir istisna varsa çağrılmaz.</para></note>'>
 
 <!ENTITY note.funcnoparam '<note xmlns="http://docbook.org/ns/docbook">
 <para>Bu işlev değiştirge ayrıntılarını
