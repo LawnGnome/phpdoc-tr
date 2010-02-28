@@ -2,7 +2,7 @@
 <!-- $Revision$ -->
 <!-- EN-Revision: 288721 Maintainer: yelekin  Status: ready -->
 <!-- CREDITS: tpug -->
-<chapter xml:id="features.cookies">
+<chapter xml:id="features.cookies" xmlns="http://docbook.org/ns/docbook">
   <title>Çerezler</title>
   <para>
     PHP <acronym>HTTP</acronym> çerezlerini şeffaf olarak destekler.
