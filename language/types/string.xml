@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 295107 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="language.types.string">
  <title><code>string</code></title>
 
@@ -348,7 +348,7 @@ EOD
 // Duruk değişkenler
 function foo()
 {
- static $bar = <<<LABEL
+  static $bar = <<<LABEL
 Burada  hiçbir şey yok...
 LABEL;
 }
@@ -356,11 +356,11 @@ LABEL;
 // Sınıf özellikleri ve sabitleri
 class foo
 {
- const BAR = <<<FOOBAR
+  const BAR = <<<FOOBAR
 Sınıf sabiti örneği
 FOOBAR;
 
- public $baz = <<<FOOBAR
+  public $baz = <<<FOOBAR
 Özellik örneği
 FOOBAR;
 }

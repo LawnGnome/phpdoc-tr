@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 293230 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-flip">
  <refnamediv>
   <refname>array_flip</refname>
@@ -47,7 +47,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Bir hata oluşmuşsa &false;, aksi takdirde belirtilen dizinin anahtarlarını
+   Bir hata oluşmuşsa &null;, aksi takdirde belirtilen dizinin anahtarlarını
    değer, değerlerini anahtar olarak içeren bir dizi döndürür.
   </para>
  </refsect1>

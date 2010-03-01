@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 293478 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="language.pseudo-types">
  <title>Bu belgede kullanılan sözde türler ve değişkenler</title>
 
@@ -160,7 +160,7 @@ print implode(' ', $new_numbers);
     bakınız.
    </simpara>
   </note>
-
+  &note.func-callback-exceptions;
  </sect2>
 
  <sect2 xml:id="language.types.void">

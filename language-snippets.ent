@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293769 Maintainer: nilgun Status: wip -->
+<!-- EN-Revision: 295210 Maintainer: nilgun Status: wip -->
 <!-- CREDITS: cumhuronat, tpug, antimon, flarecaster -->
 <!-- Keep 'em sorted -->
 
@@ -892,6 +892,11 @@ xmlns="http://docbook.org/ns/docbook" linkend="install.pecl">PECL eklentisinin
 kurulması</link> başlıklı faslında bulunabilir. Yeni dağıtımlar, indirmeler,
 kaynak dosyaları, sürdürücü bilgileri ve CHANGELOG gibi ek bilgiyi şu adreste
 bulabilirsiniz: '>
+
+<!ENTITY pecl.info.dead 'Bu eklentinin geliştirmesi durmuştur. Ancak, kaynak
+kodunu <acronym xmlns="http://docbook.org/ns/docbook">PECL</acronym>
+<acronym xmlns="http://docbook.org/ns/docbook">SVN</acronym> deposunda
+bulabilirsiniz. Yeri: '>
 
 <!ENTITY pecl.source.4 'PHP 4&apos;te bu <acronym xmlns="http://docbook.org/ns/docbook">PECL</acronym>
 eklentilerinin kaynak kodunu PHP kaynak paketi içindeki
