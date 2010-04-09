@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 293846 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="control-structures.continue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title><literal>continue</literal></title>
  <simpara>
@@ -20,6 +20,12 @@
   kullanılarak, atlama işleminin kaç seviye üstteki döngüye kadar
   uygulanacağı belirtilebilir.
  </simpara>
+  <note>
+  <para>
+   <literal>continue 0;</literal> ve <literal>continue 1;</literal>
+   <literal>continue;</literal> deyimi ile aynıdır.
+  </para>
+ </note>
  <para>
   <informalexample>
    <programlisting role="php">

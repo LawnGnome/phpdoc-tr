@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haluk Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: haluk Status: ready -->
 <part xml:id="pcre.pattern">
  <title>PCRE Şablonları</title>
 
  &reference.pcre.pattern.modifiers;
  &reference.pcre.pattern.differences;
+ &reference.pcre.pattern.posix;
  &reference.pcre.pattern.syntax;
 
 </part>
