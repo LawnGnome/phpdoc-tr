@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: mustafa Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: mustafa Status: ready -->
 <refentry xml:id="function.mysql-affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_affected_rows</refname>
@@ -130,6 +130,14 @@ Güncellenen kayıtlar: 10
    <para>
     Bir SELECT sorgusundan döndürülen satırların sayısını almak için,
     <function>mysql_num_rows</function> işlevini kullanmak mümkündür.
+   </para>
+  </note>
+  <note>
+   <title>Birleşik Yabancı Anahtarlar</title>
+   <para>
+    <function>mysql_affected_rows</function> yabancı anahtar kısıtlarındaki
+    ON DELETE CASCADE ve/veya ON UPDATE CASCADE kullanımları üzerinden
+    dolaylı olarak etkilenen satırları saymaz.
    </para>
   </note>
  </refsect1>
