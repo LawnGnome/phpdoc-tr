@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="language.types.type-juggling">
  <title>Tür Dönüşümü</title>
 
@@ -140,9 +140,11 @@ $bar = (boolean) $foo;   // $bar boolean türündedir
    <listitem>
     <simpara>(string) - <type>string</type> türüne dönüşüm</simpara>
    </listitem>
+   <!-- FIXME PHP_6
    <listitem>
     <simpara>(binary) - ikil <type>string</type> türe dönüşüm(PHP 6)</simpara>
    </listitem>
+   -->
    <listitem>
     <simpara>(array) - <type>array</type> türüne dönüşüm</simpara>
    </listitem>

@@ -1,5 +1,5 @@
 <!-- $Revision$ -->
-<!-- EN-Revision: 292734 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 298760 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: cumhuronat, tpug, antimon, flarecaster -->
 
 <!-- Part titles used mostly in manual.xml itself -->
@@ -67,6 +67,7 @@
 <!ENTITY Changelog         "Sürüm Bilgisi">
 <!ENTITY Methods           "Yöntemler">
 <!ENTITY InheritedMethods  "Miras alınan yöntemler">
+<!ENTITY InheritedProperties "Miras alınan özellikler">
 <!ENTITY Properties        "Özellikler">
 <!ENTITY Constants         "Sabitler">
 
