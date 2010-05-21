@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.serialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>serialize</refname>
@@ -117,14 +117,6 @@ if (!odbc_execute($stmt, $sqldata)) {
        <entry>4.0.7</entry>
        <entry>
         Nesne dizgeleştirme işlemi tamamen gerçeklendi.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.0</entry>
-       <entry>
-        Bir nesnenin dizgeleştirmesi yapılırken artık yöntemler kaybedilmiyor.
-        Daha fazla bilgi için <link linkend="oop4.serialization">
-        Nesneleri Dizgeleştirme</link> bölümüne bakınız.
        </entry>
       </row>
      </tbody>

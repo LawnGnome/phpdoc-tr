@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 297477 Maintainer: nilgun Status: ready -->
   <refentry xml:id="function.is-int" xmlns="http://docbook.org/ns/docbook">
    <refnamediv>
     <refname>is_int</refname>
@@ -54,9 +54,9 @@
 <![CDATA[
 <?php
 if (is_int(23)) {
- echo "tamsayıdır\n";
+    echo "tamsayıdır\n";
 } else {
- echo "tamsayı değildir\n";
+    echo "tamsayı değildir\n";
 }
 var_dump(is_int(23));
 var_dump(is_int("23"));

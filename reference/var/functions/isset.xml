@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.isset" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>isset</refname>
@@ -67,7 +67,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Belirtilen değişken tanımlıysa  &true; aksi takdirde &false; döner.
+   Belirtilen değişken tanımlıysa ve &null;'dan farklı bir değere sahipse
+   &true;, aksi takdirde &false; döner.
   </para>
  </refsect1>
 

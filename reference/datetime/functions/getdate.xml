@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: behzat Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: behzat Status: ready -->
 
 <refentry xml:id="function.getdate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -169,6 +169,7 @@ Array
   <para>
    <simplelist>
     <member><function>date</function></member>
+    <member><function>idate</function></member>
     <member><function>time</function></member>
     <member><function>setlocale</function></member>
    </simplelist>

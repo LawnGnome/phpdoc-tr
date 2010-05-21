@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: behzat Status: ready -->
+<!-- EN-Revision: 299458 Maintainer: behzat Status: ready -->
 <phpdoc:classref xml:id="class.datetimezone" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
 
  <title>DateTimeZone sınıfı</title>
@@ -31,7 +31,7 @@
      </ooclass>
     </classsynopsisinfo>
 <!-- }}} -->
-    <classsynopsisinfo role="comment">Sabitler</classsynopsisinfo>
+    <classsynopsisinfo role="comment">&Constants;</classsynopsisinfo>
     <fieldsynopsis>
      <modifier>const</modifier>
      <type>integer</type>

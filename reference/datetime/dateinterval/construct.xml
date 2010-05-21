@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: behzat Status: ready -->
+<!-- EN-Revision: 299487 Maintainer: behzat Status: ready -->
 <refentry xml:id="dateinterval.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DateInterval::__construct</refname>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis role="oop">
-   <methodname>DateInterval::__construct</methodname>
+   <modifier>public</modifier> <methodname>DateInterval::__construct</methodname>
    <methodparam><type>string</type><parameter>zaman_aralığı</parameter></methodparam>
   </constructorsynopsis>
   <para>

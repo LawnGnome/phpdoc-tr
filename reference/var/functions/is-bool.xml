@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.is-bool" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>is_bool</refname>
@@ -50,13 +50,13 @@ $a = false;
 $b = 0;
 
 // $a mantıksal türde olduğundan true döner
-if (is_bool($a)) {
+if (is_bool($a) === true) {
     echo "Evet, bu bir mantıksal değerdir";
 }
 
 // $b mantıksal türde olmadığından true dönmez
-if (is_bool($b)) {
-    echo "Evet, bu bir mantıksal değerdir";
+if (is_bool($b) === false) {
+    echo "Hayır, bu bir mantıksal değer değildir";
 }
 ?>
 ]]>
