@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 304887 Maintainer: nilgun Status: ready -->
 <appendix xml:id="userlandnaming" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Kullanıcı Alanı İsimlendirme Kılavuzu</title>
  <para>
@@ -48,8 +48,7 @@
    <listitem>
     <para>
      İşlev isimlerinde sözcükler arasında altçizgi imleri kullanılırken sınıf
-     isimlerinde hörgüçlü yazım tarzı kullanılır (eski işlev ve sınıf
-     isimlerinde bazı istisnalar vardır).
+     isimlerinde hörgüçlü ve Pascal yazım tarzlarının ikisi de kullanılır.
     </para>
    </listitem>
    <listitem>

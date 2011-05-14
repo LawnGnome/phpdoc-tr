@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299643 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 306787 Maintainer: nilgun Status: ready -->
  <chapter xml:id="faq.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Kurulum</title>
   <titleabbrev>Kurulum</titleabbrev>
@@ -178,7 +178,6 @@
       <programlisting role="apache-conf">
 <![CDATA[
 # Ek Modüller
-AddModule mod_php.c
 AddModule mod_php.c
 AddModule mod_perl.c
 

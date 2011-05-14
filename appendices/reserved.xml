@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297201 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 301282 Maintainer: nilgun Status: ready -->
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Yerleşik Sözcüklerin Listesi</title>
   <para>
@@ -210,6 +210,9 @@
        </entry>
        <entry>
         <link linkend="language.constants.predefined">__FUNCTION__</link>
+       </entry>
+       <entry>
+        <link linkend="language.constants.predefined">__LINE__</link>
        </entry>
        <entry>
         <link linkend="language.constants.predefined">__METHOD__</link>
