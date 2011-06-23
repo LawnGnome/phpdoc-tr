@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: sezer Status: ready -->
+<!-- EN-Revision: 297645 Maintainer: sezer Status: ready -->
 <!-- splitted from ./index.xml, last change in rev 1.66 -->
 <chapter xml:id="security.variables" xmlns="http://docbook.org/ns/docbook">
  <title>Kullanıcıdan Gelen Bilgi</title>
  <para>
-  PHP de yazılmış bir uygulamanın en zayıf noktası, dilin kendisinde olan bir
-  sorun değil, yazılan uygulamanın bazı varsayımlara dayanarak güvenliği göz
-  önünde bulundurmamasıdır. Bundan dolayı bir uygulama yazarken güvenliğe
-  önem vermeli ve kullanıcıdan gelen bilginin varsayıma dayanmadan
-  denetlenmesini sağlamasınız.
+  <acronym>PHP</acronym> de yazılmış bir uygulamanın en zayıf noktası, dilin
+  kendisinde olan bir sorun değil, yazılan uygulamanın bazı varsayımlara
+  dayanarak güvenliği göz önünde bulundurmamasıdır. Bundan dolayı bir uygulama
+  yazarken güvenliğe önem vermeli ve kullanıcıdan gelen bilginin varsayıma
+  dayanmadan denetlenmesini sağlamasınız.
   <example>
    <title>- Tehlikeli Değişken Kullanımı</title>
    <programlisting role="php">

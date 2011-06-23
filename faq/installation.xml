@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306787 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 311461 Maintainer: nilgun Status: ready -->
  <chapter xml:id="faq.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Kurulum</title>
   <titleabbrev>Kurulum</titleabbrev>
@@ -37,14 +37,8 @@
       hamuru bir bulamaca dönüşebilir.
      </para>
      <para>
-      Mutlaka çok evreli bir MPM kullanmak zorundaysanız, PHP'nin kendi
-      bellek uzayında çalışmasını sağlayan FastCGI yapılandırması bir çözüm
-      olabilir.
-     </para>
-     <para>
-      Ancak, çok evreli MPM kullanımı Windows sistemler için bir sorun teşkil
-      etmez çünkü bu platform üzerinde çalışan çoğu kütüphane zaten çok
-      evreli kullanımı desteklemektedir.
+      Çok evreli bir MPM kullanmak isterseniz, PHP'nin kendi bellek uzayında
+      çalışmasını sağlayan FastCGI yapılandırması bir çözüm olabilir.
      </para>
     </answer>
    </qandaentry>
