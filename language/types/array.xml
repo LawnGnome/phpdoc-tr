@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 308159 Maintainer: nilgun Status: ready -->
 <sect1 xml:id="language.types.array">
  <title><code>array</code></title>
 
@@ -352,8 +352,8 @@ echo $foo[bar];
 <![CDATA[
 <?php
 error_reporting(E_ALL);
-ini_set('hataları_göster', true);
-ini_set('html_hataları', false);
+ini_set('display_errors', true);
+ini_set('html_errors', false);
 // Basit bir dizi:
 $dizi = array(1, 2);
 $sayaç = count($dizi);
@@ -689,7 +689,7 @@ $boş = array();
   </example>
 
   <example xml:id="language.types.array.examples.loop">
-   <title>- Derlem</title>
+   <title>- Döngü içinde elemen değiştirme</title>
    <programlisting role="php">
 <![CDATA[
 <?php
