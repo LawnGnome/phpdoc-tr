@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 293498 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 312969 Maintainer: nilgun Status: ready -->
  <info xmlns="http://docbook.org/ns/docbook" xml:id="bookinfo" xml:lang="tr">
   &frontpage.authors;
-  <pubdate><?dbtimestamp format="Y-m-d"?></pubdate>
+  <pubdate><?dbtimestamp format="d-m-Y"?></pubdate>
   &frontpage.editors;
 
 <!-- Sıralama, soyadına göredir. -->
