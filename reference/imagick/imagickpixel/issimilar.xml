@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickpixel-issimilar">
+<!-- EN-Revision: 331921 Maintainer: nilgun Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickpixel.issimilar">
  <refnamediv>
   <refname>ImagickPixel::isSimilar</refname>
   <refpurpose>İki renk arasındaki benzerliği hesaplar</refpurpose>
@@ -20,6 +20,9 @@
    nesnesinin rengi ile bu nesnenin rengi arasındaki benzerliği hesaplar. Eğer
    iki nesne arasındaki benzerlik <parameter>benzerlik</parameter> ile
    belirtilen değerden küçükse iki renk benzerdir.
+   Bu işlev eskidir. Yerine <link
+   linkend="imagickpixel.ispixelsimilar">ImagickPixel::isPixelSimilar()</link>
+   kullanılnalıdır.
   </para>
  </refsect1>
 
