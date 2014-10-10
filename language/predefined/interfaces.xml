@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: haluk Status: ready -->
+<!-- EN-Revision: 330333 Maintainer: nilgun Status: ready -->
+<!-- CREDITS: haluk -->
 <part xml:id="reserved.interfaces" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Öntanımlı Arayüzler</title>
+ <title>Öntanımlı Arayüzler ve Sınıflar</title>
 
  <partintro>
   <para>
-   Ayrıca bakınız: <link linkend="spl.interfaces">SPL Arayüzleri</link>
+   Ayrıca bakınız: <link linkend="spl.interfaces">SPL Arayüzleri</link> ve
+   <link linkend="reserved.classes">ayrılmış sınıflar</link>.
   </para>
  </partintro>
 
@@ -15,6 +17,8 @@
  &language.predefined.iteratoraggregate;
  &language.predefined.arrayaccess;
  &language.predefined.serializable;
+ &language.predefined.closure;
+ &language.predefined.generator;
 
 </part>
 
