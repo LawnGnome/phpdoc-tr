@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: behzat Status: ready -->
-<!-- CREDITS: faruk -->
+<!-- EN-Revision: 325214 Maintainer: nilgun Status: ready -->
+<!-- CREDITS: faruk, behzat -->
 <!-- splitted from ./en/functions/apache.xml, last change in rev 1.20 -->
 <refentry xml:id="function.virtual" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -68,6 +68,12 @@
      </thead>
      <tbody>
       <row>
+       <entry>4.3.3</entry>
+       <entry>
+        &note.apache.nsapi-module;
+       </entry>
+      </row>
+      <row>
        <entry>4.0.6</entry>
        <entry>
         Bu işlev PHP dosyalarında kullanılabilir. Ancak
@@ -105,7 +111,6 @@
     İstek dosyasında atanan ortam değişkenleri çağrı betiğine görünür değildir.
    </para>
   </note>
-  &note.apache.nsapi-module;
  </refsect1>
 
  <refsect1 role="seealso">
