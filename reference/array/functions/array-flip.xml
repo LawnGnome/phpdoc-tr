@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: nilgun Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.array-flip">
  <refnamediv>
   <refname>array_flip</refname>
@@ -20,7 +20,7 @@
    Belirtilen dizi içindeki değerlerin anahtar olarak geçerli olmaları
    gerekir, yani ya <type>integer</type> ya da <type>string</type> türünde
    olmaları gerekir. Değerlerden birinin türü bu türlerden biri değilse bir
-   uyarı verilir ve bu anahtar/değer çiftinde bir değişiklik yapılmaz.
+   uyarı verilir ve bu anahtar/değer çifti <emphasis>dönen dizide bulunmaz</emphasis>.
   </para>
   <para>
    Bir değer birden fazla elemanda varsa değer olarak sonuncusunun anahtarı
