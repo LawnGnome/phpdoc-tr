@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 312071 Maintainer: nilgun Status: ready -->
 <refentry xml:id="function.getenv" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>getenv</refname>
@@ -19,9 +19,7 @@
   <para>
    Tüm ortam değişkenlerini <function>phpinfo</function> işlevini kullanarak
    bir liste halinde görebilirsiniz. Bunların pek çoğunun anlamlarını
-   <link xlink:href="&url.cgispecs;">CGI belirtimi</link> belgesinin özellikle
-   <link xlink:href="&url.cgispec;">ortam değişkenleri ile ilgili
-   sayfa</link>sında bulabilirsiniz.
+   <link xlink:href="&url.rfc;3875">RFC 3875</link> belgesinin özellikle 4.1 "Request Meta-Variables" bölümünde bulabilirsiniz.
   </para>
  </refsect1>
 
@@ -44,8 +42,9 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Bir hata oluşursa &false; aksi takdirde <parameter>değişken</parameter> ile
-   belirtilen ortam değişkeninin değerini döndürür.
+   <parameter>değişken</parameter> diye bir ortam değişkeni yoksa &false; aksi 
+   takdirde <parameter>değişken</parameter> ile belirtilen ortam değişkeninin 
+   değerini döndürür.
   </para>
  </refsect1>
 
