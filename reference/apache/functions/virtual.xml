@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336339 Maintainer: nilgun Status: ready -->
+<!-- EN-Revision: 338550 Maintainer: nilgun Status: ready -->
 <!-- CREDITS: faruk, behzat -->
 <!-- splitted from ./en/functions/apache.xml, last change in rev 1.20 -->
 <refentry xml:id="function.virtual" xmlns="http://docbook.org/ns/docbook">
